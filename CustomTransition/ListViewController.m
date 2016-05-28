@@ -28,9 +28,7 @@
     tableView.delegate = self;
     [self.view addSubview:tableView];
     
-    self.array = @[@"Bounce Push",@"QQ Music Animation",@"",@""];
-    
-
+    self.array = @[@"Bounce Push",@"QQ Music Animation"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -50,31 +48,17 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     switch (indexPath.row) {
-        case 0:
-        {
+        case 0: {
             [self.navigationController pushViewController:[[LeftViewController alloc] init] animated:YES];
         }
             break;
-        case 1:
-        {
+        case 1: {
             [self.navigationController pushViewController:[[QQFirstViewController alloc] init] animated:YES];
-        }
-            break;
-        case 2:
-        {
-            
-        }
-            break;
-        case 3:
-        {
-            
         }
             break;
         default:
             break;
     }
 }
-
-
 
 @end
