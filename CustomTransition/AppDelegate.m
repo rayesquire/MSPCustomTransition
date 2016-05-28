@@ -7,20 +7,15 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
-
-@interface AppDelegate ()
-
-@end
+#import "ListViewController.h"
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[MainViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ListViewController alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }

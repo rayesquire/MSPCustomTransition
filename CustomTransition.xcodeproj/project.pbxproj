@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A698BC4C1CF96A1100ECC50A /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A698BC4B1CF96A1100ECC50A /* ListViewController.m */; };
+		A698BC511CF9708800ECC50A /* QQFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A698BC501CF9708800ECC50A /* QQFirstViewController.m */; };
+		A698BC541CF971FB00ECC50A /* JumpAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A698BC531CF971FB00ECC50A /* JumpAnimation.m */; };
+		A698BC571CF9726800ECC50A /* DownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A698BC561CF9726800ECC50A /* DownAnimation.m */; };
+		A698BC591CF9744700ECC50A /* bkg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A698BC581CF9744700ECC50A /* bkg.jpeg */; };
+		A698BC5C1CF981A500ECC50A /* QQSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A698BC5B1CF981A500ECC50A /* QQSecondViewController.m */; };
+		A698BC5F1CF9DDB600ECC50A /* SwipeDownInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A698BC5E1CF9DDB600ECC50A /* SwipeDownInteractiveTransition.m */; };
 		A6EA93751CA396690005008F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93741CA396690005008F /* main.m */; };
 		A6EA93781CA396690005008F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93771CA396690005008F /* AppDelegate.m */; };
-		A6EA937B1CA396690005008F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA937A1CA396690005008F /* ViewController.m */; };
+		A6EA937B1CA396690005008F /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA937A1CA396690005008F /* RightViewController.m */; };
 		A6EA93801CA396690005008F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EA937F1CA396690005008F /* Assets.xcassets */; };
 		A6EA938E1CA396690005008F /* CustomTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA938D1CA396690005008F /* CustomTransitionTests.m */; };
 		A6EA93991CA3966A0005008F /* CustomTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93981CA3966A0005008F /* CustomTransitionUITests.m */; };
-		A6EA93A81CA396970005008F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93A71CA396970005008F /* MainViewController.m */; };
+		A6EA93A81CA396970005008F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93A71CA396970005008F /* LeftViewController.m */; };
 		A6EA93AF1CA396BB0005008F /* BouncePushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93AA1CA396BB0005008F /* BouncePushAnimation.m */; };
 		A6EA93B01CA396BB0005008F /* PopDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93AC1CA396BB0005008F /* PopDismissAnimation.m */; };
 		A6EA93B11CA396BB0005008F /* SwipeRightInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA93AE1CA396BB0005008F /* SwipeRightInteractiveTransition.m */; };
@@ -37,12 +44,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A698BC4A1CF96A1100ECC50A /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		A698BC4B1CF96A1100ECC50A /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		A698BC4F1CF9708800ECC50A /* QQFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFirstViewController.h; sourceTree = "<group>"; };
+		A698BC501CF9708800ECC50A /* QQFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFirstViewController.m; sourceTree = "<group>"; };
+		A698BC521CF971FB00ECC50A /* JumpAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpAnimation.h; sourceTree = "<group>"; };
+		A698BC531CF971FB00ECC50A /* JumpAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpAnimation.m; sourceTree = "<group>"; };
+		A698BC551CF9726800ECC50A /* DownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownAnimation.h; sourceTree = "<group>"; };
+		A698BC561CF9726800ECC50A /* DownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownAnimation.m; sourceTree = "<group>"; };
+		A698BC581CF9744700ECC50A /* bkg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bkg.jpeg; sourceTree = "<group>"; };
+		A698BC5A1CF981A500ECC50A /* QQSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQSecondViewController.h; sourceTree = "<group>"; };
+		A698BC5B1CF981A500ECC50A /* QQSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQSecondViewController.m; sourceTree = "<group>"; };
+		A698BC5D1CF9DDB600ECC50A /* SwipeDownInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeDownInteractiveTransition.h; sourceTree = "<group>"; };
+		A698BC5E1CF9DDB600ECC50A /* SwipeDownInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeDownInteractiveTransition.m; sourceTree = "<group>"; };
 		A6EA93701CA396690005008F /* CustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EA93741CA396690005008F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6EA93761CA396690005008F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6EA93771CA396690005008F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A6EA93791CA396690005008F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A6EA937A1CA396690005008F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6EA93791CA396690005008F /* RightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		A6EA937A1CA396690005008F /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 		A6EA937F1CA396690005008F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6EA93841CA396690005008F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6EA93891CA396690005008F /* CustomTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +71,8 @@
 		A6EA93941CA3966A0005008F /* CustomTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EA93981CA3966A0005008F /* CustomTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionUITests.m; sourceTree = "<group>"; };
 		A6EA939A1CA3966A0005008F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6EA93A61CA396970005008F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		A6EA93A71CA396970005008F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A6EA93A61CA396970005008F /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		A6EA93A71CA396970005008F /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		A6EA93A91CA396BB0005008F /* BouncePushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncePushAnimation.h; sourceTree = "<group>"; };
 		A6EA93AA1CA396BB0005008F /* BouncePushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncePushAnimation.m; sourceTree = "<group>"; };
 		A6EA93AB1CA396BB0005008F /* PopDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopDismissAnimation.h; sourceTree = "<group>"; };
@@ -86,6 +106,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A698BC4D1CF96CC100ECC50A /* BouncePushAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA93A61CA396970005008F /* LeftViewController.h */,
+				A6EA93A71CA396970005008F /* LeftViewController.m */,
+				A6EA93791CA396690005008F /* RightViewController.h */,
+				A6EA937A1CA396690005008F /* RightViewController.m */,
+				A6EA93A91CA396BB0005008F /* BouncePushAnimation.h */,
+				A6EA93AA1CA396BB0005008F /* BouncePushAnimation.m */,
+				A6EA93AB1CA396BB0005008F /* PopDismissAnimation.h */,
+				A6EA93AC1CA396BB0005008F /* PopDismissAnimation.m */,
+				A6EA93AD1CA396BB0005008F /* SwipeRightInteractiveTransition.h */,
+				A6EA93AE1CA396BB0005008F /* SwipeRightInteractiveTransition.m */,
+			);
+			name = BouncePushAnimation;
+			sourceTree = "<group>";
+		};
+		A698BC4E1CF9706500ECC50A /* QQ Music Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A698BC4F1CF9708800ECC50A /* QQFirstViewController.h */,
+				A698BC501CF9708800ECC50A /* QQFirstViewController.m */,
+				A698BC5A1CF981A500ECC50A /* QQSecondViewController.h */,
+				A698BC5B1CF981A500ECC50A /* QQSecondViewController.m */,
+				A698BC521CF971FB00ECC50A /* JumpAnimation.h */,
+				A698BC531CF971FB00ECC50A /* JumpAnimation.m */,
+				A698BC551CF9726800ECC50A /* DownAnimation.h */,
+				A698BC561CF9726800ECC50A /* DownAnimation.m */,
+				A698BC5D1CF9DDB600ECC50A /* SwipeDownInteractiveTransition.h */,
+				A698BC5E1CF9DDB600ECC50A /* SwipeDownInteractiveTransition.m */,
+			);
+			name = "QQ Music Animation";
+			sourceTree = "<group>";
+		};
 		A6EA93671CA396690005008F = {
 			isa = PBXGroup;
 			children = (
@@ -111,17 +165,12 @@
 			children = (
 				A6EA93761CA396690005008F /* AppDelegate.h */,
 				A6EA93771CA396690005008F /* AppDelegate.m */,
-				A6EA93A61CA396970005008F /* MainViewController.h */,
-				A6EA93A71CA396970005008F /* MainViewController.m */,
-				A6EA93791CA396690005008F /* ViewController.h */,
-				A6EA937A1CA396690005008F /* ViewController.m */,
-				A6EA93A91CA396BB0005008F /* BouncePushAnimation.h */,
-				A6EA93AA1CA396BB0005008F /* BouncePushAnimation.m */,
-				A6EA93AB1CA396BB0005008F /* PopDismissAnimation.h */,
-				A6EA93AC1CA396BB0005008F /* PopDismissAnimation.m */,
-				A6EA93AD1CA396BB0005008F /* SwipeRightInteractiveTransition.h */,
-				A6EA93AE1CA396BB0005008F /* SwipeRightInteractiveTransition.m */,
+				A698BC4A1CF96A1100ECC50A /* ListViewController.h */,
+				A698BC4B1CF96A1100ECC50A /* ListViewController.m */,
+				A698BC4D1CF96CC100ECC50A /* BouncePushAnimation */,
+				A698BC4E1CF9706500ECC50A /* QQ Music Animation */,
 				A6EA937F1CA396690005008F /* Assets.xcassets */,
+				A698BC581CF9744700ECC50A /* bkg.jpeg */,
 				A6EA93841CA396690005008F /* Info.plist */,
 				A6EA93731CA396690005008F /* Supporting Files */,
 			);
@@ -257,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A698BC591CF9744700ECC50A /* bkg.jpeg in Resources */,
 				A6EA93801CA396690005008F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +332,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A698BC5F1CF9DDB600ECC50A /* SwipeDownInteractiveTransition.m in Sources */,
+				A698BC541CF971FB00ECC50A /* JumpAnimation.m in Sources */,
 				A6EA93B11CA396BB0005008F /* SwipeRightInteractiveTransition.m in Sources */,
-				A6EA937B1CA396690005008F /* ViewController.m in Sources */,
+				A6EA937B1CA396690005008F /* RightViewController.m in Sources */,
+				A698BC4C1CF96A1100ECC50A /* ListViewController.m in Sources */,
 				A6EA93781CA396690005008F /* AppDelegate.m in Sources */,
 				A6EA93751CA396690005008F /* main.m in Sources */,
 				A6EA93B01CA396BB0005008F /* PopDismissAnimation.m in Sources */,
-				A6EA93A81CA396970005008F /* MainViewController.m in Sources */,
+				A698BC511CF9708800ECC50A /* QQFirstViewController.m in Sources */,
+				A698BC5C1CF981A500ECC50A /* QQSecondViewController.m in Sources */,
+				A6EA93A81CA396970005008F /* LeftViewController.m in Sources */,
+				A698BC571CF9726800ECC50A /* DownAnimation.m in Sources */,
 				A6EA93AF1CA396BB0005008F /* BouncePushAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.CustomTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rayesquire.CustomTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,6 +551,7 @@
 				A6EA939F1CA3966A0005008F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6EA93A01CA3966A0005008F /* Build configuration list for PBXNativeTarget "CustomTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +560,7 @@
 				A6EA93A21CA3966A0005008F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6EA93A31CA3966A0005008F /* Build configuration list for PBXNativeTarget "CustomTransitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +569,7 @@
 				A6EA93A51CA3966A0005008F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

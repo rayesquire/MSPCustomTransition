@@ -6,13 +6,13 @@
 //  Copyright © 2016年 马了个马里奥. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RightViewController.h"
 
-@interface ViewController ()
+@interface RightViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RightViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,8 +27,8 @@
 
 - (void)buttonClicked:(id)sender
 {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(viewControllerDidClickedDismissButton:)]) {
-        [self.delegate viewControllerDidClickedDismissButton:self];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(rightViewControllerDidClickedDismissButton:)]) {
+        [self.delegate rightViewControllerDidClickedDismissButton:self];
     }
 }
 @end

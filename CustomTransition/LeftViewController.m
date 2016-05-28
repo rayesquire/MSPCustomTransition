@@ -6,13 +6,13 @@
 //  Copyright © 2016年 马了个马里奥. All rights reserved.
 //
 
-#import "MainViewController.h"
-#import "ViewController.h"
+#import "LeftViewController.h"
+#import "RightViewController.h"
 #import "PopDismissAnimation.h"
 #import "BouncePushAnimation.h"
 #import "SwipeRightInteractiveTransition.h"
 
-@interface MainViewController () <UIViewControllerTransitioningDelegate,ViewControllerDelegate>
+@interface LeftViewController () <UIViewControllerTransitioningDelegate,RightViewControllerDelegate>
 
 @property (nonatomic, readwrite, strong) BouncePushAnimation *pushAnimation;
 
@@ -22,22 +22,18 @@
 
 @end
 
-@implementation MainViewController
-
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        _pushAnimation = [BouncePushAnimation new];
-        _rightTransitionController = [SwipeRightInteractiveTransition new];
-        _popDismissAnimation = [PopDismissAnimation new];
-    }
-    return self;
-}
+@implementation LeftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
+    
+    _pushAnimation = [BouncePushAnimation new];
+    _rightTransitionController = [SwipeRightInteractiveTransition new];
+    _popDismissAnimation = [PopDismissAnimation new];
+    
+    self.title = @"Bounce Push Animation";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
     [button setTitle:@"Click me" forState:UIControlStateNormal];
@@ -45,27 +41,23 @@
     [self.view addSubview:button];
 }
 
--(void)buttonClicked:(id)sender
-{
-    ViewController *mvc = [[ViewController alloc] init];
-    mvc.delegate = self;
+- (void)buttonClicked:(id)sender {
+    RightViewController *mvc = [[RightViewController alloc] init];
     mvc.transitioningDelegate = self;
+    mvc.delegate = self;
     [self.rightTransitionController wireToViewController:mvc];
     [self presentViewController:mvc animated:YES completion:nil];
 }
 
--(void)viewControllerDidClickedDismissButton:(ViewController *)viewController
-{
+- (void)rightViewControllerDidClickedDismissButton:(RightViewController *)viewController {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
-{
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
     return self.pushAnimation;
 }
 
-- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
-{
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
     return self.popDismissAnimation;
 }
 

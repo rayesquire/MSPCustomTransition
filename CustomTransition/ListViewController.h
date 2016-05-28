@@ -1,13 +1,13 @@
 //
-//  MainViewController.h
+//  ListViewController.h
 //  CustomTransition
 //
-//  Created by 马了个马里奥 on 16/3/24.
+//  Created by 马了个马里奥 on 16/5/28.
 //  Copyright © 2016年 马了个马里奥. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface ListViewController : UIViewController
 
 @end

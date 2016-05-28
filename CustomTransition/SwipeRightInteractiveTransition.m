@@ -18,20 +18,17 @@
 
 @implementation SwipeRightInteractiveTransition
 
-- (void)wireToViewController:(UIViewController *)viewController
-{
+- (void)wireToViewController:(UIViewController *)viewController {
     self.presentingVC = viewController;
     [self prepareGestureRecognizerInView:viewController.view];
 }
 
-- (void)prepareGestureRecognizerInView:(UIView*)view
-{
+- (void)prepareGestureRecognizerInView:(UIView *)view {
     UIPanGestureRecognizer *gesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
     [view addGestureRecognizer:gesture];
 }
 
-- (CGFloat)completionSpeed
-{
+- (CGFloat)completionSpeed {
     return 1 - self.percentComplete;
 }
 
