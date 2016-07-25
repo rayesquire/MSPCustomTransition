@@ -48,11 +48,6 @@
         [imageSnapShot removeFromSuperview];
         [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
     }];
-    
-    
-    
-    
-    
 }
 
 @end

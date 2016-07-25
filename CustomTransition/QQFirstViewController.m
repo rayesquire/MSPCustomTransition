@@ -26,7 +26,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    self.navigationController.navigationBarHidden = YES;
 
     self.jumpAnimation = [JumpAnimation new];
     self.downAnimation = [DownAnimation new];
